@@ -1,0 +1,10 @@
+package]
+name = "aidoku-goctruyentranh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aidoku-macro = "0.1"
+aidoku-std = "0.1"
+reqwest = { version = "0.11", features = ["blocking", "rustls-tls"] }
+select = "0.5"
