@@ -1,0 +1,6 @@
+/target         # Thư mục chứa các tệp biên dịch Rust
+/pkg            # Thư mục chứa tệp WebAssembly (WASM)
+node_modules    # Thư mục của thư viện Node.js (nếu dùng)
+*.rs.bk         # Các tệp sao lưu của Rust
+.DS_Store       # Tệp hệ thống của macOS
+.env            # Tệp chứa biến môi trường (nếu có)
